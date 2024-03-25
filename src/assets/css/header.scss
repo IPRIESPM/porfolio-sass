@@ -15,6 +15,9 @@
         }
     }
     &-inner{
-        
+        background: $bg-img no-repeat 20% 30% /cover;
+        height: 5.5rem;
+        color: #fff;
+        border-bottom: 3px solid $main-color;
     }
 }
