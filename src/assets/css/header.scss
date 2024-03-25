@@ -1,0 +1,20 @@
+#header{
+    &-home{
+        background: $bg-img no-repeat center center/cover;
+        height: 100vh;
+        color: #fff;
+
+        .header-content{
+            text-align: center;
+            padding-top: 20%;
+
+            h1{
+                font-size: 4rem;
+                line-height: 1.2;
+            }
+        }
+    }
+    &-inner{
+        
+    }
+}

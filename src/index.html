@@ -4,8 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="assets/css/base.scss">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></script>
+  <link rel="stylesheet" href="assets/css/style.scss">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
@@ -16,14 +17,25 @@
   <header id="header-home">
     <div class="container">
       <nav id="main-nav">
-        <img src="assets/img/logo.png" alt="my portfolio logo" id="logo">
+        <img src="assets/img/logo.png" alt="my portfolio logo" id="logo" width="70px" height="70px">
         <ul>
           <li><a href="index.html" class="current">Home</a></li>
-          <li><a href="about.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
+
+      <div class="header-content">
+        <h1>I am John the <span class="txt-type" data-wait="3000"
+            data-words='["Photographer","Designer","UI/UX dev"]'></span></h1>
+        <p class="lead">I specialize in graphic desing, UI/UX and photography</p>
+        <a href="work.html" class="btn-light">View my work</a>
+      </div>
     </div>
   </header>
+
+  <script src="assets/js/typewriter.js"></script>
 </body>
 
 </html>
