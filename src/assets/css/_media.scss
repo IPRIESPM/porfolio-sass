@@ -126,3 +126,28 @@
         }
     }
 }
+
+@media(max-width: 580px) {
+    #header-home {
+        height: max-content;
+
+        .header-content {
+            padding-top: 3rem;
+            height: max-content;
+        }
+    }
+}
+
+@media(max-width: 375px) {
+    #header-home {
+        height: max-content;
+
+        .header-content {
+
+
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    }
+}
